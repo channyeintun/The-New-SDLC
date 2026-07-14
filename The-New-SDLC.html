@@ -48,7 +48,8 @@ a { color: #174ea6; text-decoration: none; overflow-wrap: anywhere; }
 .cover .flow { margin-top: auto; display: flex; align-items: center; gap: 9pt; font: 700 9pt/1 Arial, sans-serif; letter-spacing: .7pt; color: #dff8fa; }
 .cover .flow span { padding: 8pt 11pt; border: 1px solid rgba(112,225,232,.55); background: rgba(7,21,47,.42); border-radius: 20pt; }
 .cover .flow b { color: #f6b84a; font-size: 14pt; }
-.heading-keep { break-inside: avoid; page-break-inside: avoid; }
+.heading-keep { display: flow-root; break-inside: avoid; page-break-inside: avoid; }
+.heading-keep > h2:first-child, .heading-keep > h3:first-child { margin-top: 0; padding-top: 22pt; }
 .toc a { display: block; padding: 3pt 0; }
 .toc li::marker { color: #174ea6; font-weight: 700; }
 .cover + h2 { break-before: page; }
