@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@fontsource/noto-sans-myanmar": "^5.2.7",
+    "@sparticuz/chromium": "^149.0.0",
+    "marked": "^18.0.6",
+    "puppeteer": "^25.3.0"
+  }
+}
